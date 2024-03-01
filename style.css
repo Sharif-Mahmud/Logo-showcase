@@ -1,0 +1,346 @@
+
+
+.abcm_clients .clients_icon {
+    position: relative;
+    height: 230px;
+    padding-top: 50px;
+    transform: scale(1.2);
+}
+
+.abcm_clients .clients_icon .img {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.abcm_clients .clients_icon .img p {
+    position: absolute;
+    background: #316493;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 12px;
+    border-radius: 3px;
+    z-index: 2;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%) scale(.5);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.abcm_clients .clients_icon .img:hover p {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+    top: -5px;
+}
+
+.abcm_clients .clients_icon .img img {
+    transition: .5s;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.abcm_clients .clients_icon .img:hover img {
+    box-shadow: 0px 0px 30px #85858559;
+}
+
+
+.abcm_clients .clients_icon .img:nth-child(2) {
+    transform: translate(40px, 50px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(3) {
+    transform: translate(-40px, 50px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(4) {
+    transform: translate(-80px, 100px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(5) {
+    transform: translate(80px, 100px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(6) {
+    transform: translate(-123px, 50px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(7) {
+    transform: translate(123px, 50px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(8) {
+    transform: translate(165px, 0px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(9) {
+    transform: translate(-165px, 0px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(10) {
+    transform: translate(-205px, -50px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(11) {
+    transform: translate(205px, -50px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(12) {
+    transform: translate(260px, -15px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(13) {
+    transform: translate(-260px, -15px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(14) {
+    transform: translate(-313px, 23px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(15) {
+    transform: translate(313px, 23px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(16) {
+    transform: translate(363px, -15px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(17) {
+    transform: translate(-363px, -15px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(18) {
+    transform: translate(412px, 23px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(19) {
+    transform: translate(-412px, 23px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(20) {
+    left: calc(50% + 471px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(21) {
+    transform: translate(-462px, -15px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(22) {
+    transform: translate(222px, 75px);
+}
+
+.abcm_clients .clients_icon .img:nth-child(23) {
+    transform: translate(-222px, 75px);
+}
+
+/*responsive*/
+@media only screen and (min-width: 1400px) {
+    .abcm_clients .clients_icon {
+        transform: scale(1.4);
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .abcm_clients .clients_icon {
+        transform: scale(1.8);
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .abcm_clients .clients_icon {
+        transform: scale(1.06);
+    }
+}
+
+@media only screen and (max-width: 1024) {
+    .abcm_clients .clients_icon {
+        transform: scale(1);
+    }
+
+}
+
+/*animation*/
+.abcm_clients .clients_icon .img:nth-child(1) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(2) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(3) img {
+    animation: fly_animation_3 15s linear infinite;
+    -webkit-animation: fly_animation_3 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(4) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(5) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(6) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(7) img {
+    animation: fly_animation_3 15s linear infinite;
+    -webkit-animation: fly_animation_3 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(8) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(9) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(10) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(11) img {
+    animation: fly_animation_3 15s linear infinite;
+    -webkit-animation: fly_animation_3 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(12) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(13) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(14) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(15) img {
+    animation: fly_animation_3 15s linear infinite;
+    -webkit-animation: fly_animation_3 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(16) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(17) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(18) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(19) img {
+    animation: fly_animation_3 15s linear infinite;
+    -webkit-animation: fly_animation_3 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(20) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(21) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(22) img {
+    animation: fly_animation_3 15s linear infinite;
+    -webkit-animation: fly_animation_3 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(23) img {
+    animation: fly_animation_1 15s linear infinite;
+    -webkit-animation: fly_animation_1 15s linear infinite;
+}
+
+.abcm_clients .clients_icon .img:nth-child(24) img {
+    animation: fly_animation_2 15s linear infinite;
+    -webkit-animation: fly_animation_2 15s linear infinite;
+}
+
+@keyframes fly_animation_1 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fly_animation_2 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(8px);
+    }
+
+    75% {
+        transform: translateY(12px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fly_animation_3 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-12px);
+    }
+
+    75% {
+        transform: translateY(9px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
